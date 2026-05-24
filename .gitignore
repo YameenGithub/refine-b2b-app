@@ -28,3 +28,12 @@ _.ntvs_
 _.njsproj
 _.sln
 \*.sw?
+
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform CLI cache
+.terraform.lock.hcl.bak
