@@ -1,0 +1,5 @@
+aws_region    = "ap-south-1"
+project_name  = "refine-b2b-app"
+environment   = "dev"
+image_tag     = "latest"
+desired_count = 1
